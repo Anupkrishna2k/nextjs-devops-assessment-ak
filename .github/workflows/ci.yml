@@ -23,5 +23,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ghcr.io/${{ github.repository_owner | lower }}/nextjs-app:latest
+          tags: ghcr.io/anupkrishna2k/nextjs-app:latest
+
 
